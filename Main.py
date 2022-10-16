@@ -53,7 +53,7 @@ def preorder(root) -> None:
     
 
 
-def postorder(root) --> None:
+def postorder(root) -> None:
     if root is None: 
         return 
     postorder(root.left_child) 
